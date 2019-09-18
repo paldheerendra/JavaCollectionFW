@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package com.qa.utils;
+
+import java.util.*;
+
+/**
+ * @author Dheerendra Pal (expleo)
+ *
+ */
+public class SortingMap {
+
+	// Function to sort map by Key
+	public static void sortByKeyUsingArraList(Map<String, Integer> map) {
+		ArrayList<String> sortedKeys = new ArrayList<String>(map.keySet());
+
+		Collections.sort(sortedKeys);
+
+		for (String key : sortedKeys)
+		{
+			System.out.println( key + ": " + map.get(key));
+			//System.out.println("Key = " + key + ", Value = " + map.get(key));
+		}
+				
+	}
+	public static void sortByUsingTreeSet(Map<String, Integer> map) {
+		/*
+		 * TreeMap<String, Integer> tmap=new TreeMap<>(); 
+		 * tmap.putAll(map);
+		 */
+		TreeMap<String, Integer> tmap=new TreeMap<>(map);
+		for(Map.Entry m: tmap.entrySet()) {
+			System.out.println(m.getKey() + ": " + m.getValue());
+		}
+	}
+
+	public static void main(String[] args) {
+
+		Map<String, Integer> hmap = new HashMap<>();
+		hmap.put("Jayant", 80);
+		hmap.put("Abhishek", 90);
+		hmap.put("Anushka", 80);
+		hmap.put("Amit", 75);
+		hmap.put("Danish", 40);
+
+		sortByKeyUsingArraList(hmap);
+		
+		System.out.println("-----------------Sort by TreeMap---------");
+		sortByUsingTreeSet(hmap);
+	}
+
+}
