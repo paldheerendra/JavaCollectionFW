@@ -25,6 +25,7 @@ public class SortingMap {
 				
 	}
 	public static void sortByUsingTreeSet(Map<String, Integer> map) {
+		System.out.println("-----------------Sort by TreeMap---------");
 		/*
 		 * TreeMap<String, Integer> tmap=new TreeMap<>(); 
 		 * tmap.putAll(map);
@@ -46,7 +47,7 @@ public class SortingMap {
 
 		sortByKeyUsingArraList(hmap);
 		
-		System.out.println("-----------------Sort by TreeMap---------");
+		
 		sortByUsingTreeSet(hmap);
 	}
 

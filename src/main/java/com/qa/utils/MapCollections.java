@@ -27,6 +27,7 @@ public class MapCollections {
 
 		for (Map.Entry<Integer, String> entry : hm.entrySet()) {
 			System.out.println(entry.getKey() + ": " + entry.getValue());
+			
 		}
 			
 				

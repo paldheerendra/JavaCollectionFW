@@ -43,6 +43,16 @@ public class ListCollections {
 		 }
 		
 	 }
+	 
+	 public static void getThroughLambdaExpression() {
+		 
+		 System.out.println("-----------------"); 
+		 list.add("Virat");
+		 list.forEach(item -> {
+			 System.out.println(item);
+		 });
+		 
+	 }
 	
 	
 	public static void main(String[] args) {
@@ -52,6 +62,8 @@ public class ListCollections {
 		 getThroughIterator();
 		 
 		 getThroughSize();
+		 
+		 getThroughLambdaExpression();
 
 	}
 
