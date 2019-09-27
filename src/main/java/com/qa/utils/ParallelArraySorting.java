@@ -24,6 +24,7 @@ public class ParallelArraySorting {
         }  
         // Sorting array elements parallel  
         Arrays.parallelSort(arr); 
+        
         System.out.println("\nArray elements after sorting");  
         // Iterating array elements  
         for (int i : arr) {  

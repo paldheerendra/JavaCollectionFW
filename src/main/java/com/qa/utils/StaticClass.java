@@ -5,7 +5,7 @@ package com.qa.utils;
 
 /**
  * @author Dheerendra Pal (expleo)
- *
+ * We're having only static methods and variables
  */
 public class StaticClass {
 
@@ -22,6 +22,10 @@ public class StaticClass {
 			}
 			System.out.println();
 		}
+	}
+	//non static methods will not be accessible through static import
+	public void nonStaticMethod() {
+		System.out.println("-----------------nonStaticMethod()------------------");
 	}
 
 }

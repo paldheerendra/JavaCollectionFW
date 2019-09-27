@@ -26,10 +26,13 @@ public class SortingMap {
 	}
 	public static void sortByUsingTreeSet(Map<String, Integer> map) {
 		System.out.println("-----------------Sort by TreeMap---------");
+		
 		/*
-		 * TreeMap<String, Integer> tmap=new TreeMap<>(); 
-		 * tmap.putAll(map);
+		 * TreeMap<String, Integer> tmap1=new TreeMap<>();
+		 *  tmap1.putAll(map);
 		 */
+		
+	 
 		TreeMap<String, Integer> tmap=new TreeMap<>(map);
 		for(Map.Entry m: tmap.entrySet()) {
 			System.out.println(m.getKey() + ": " + m.getValue());
