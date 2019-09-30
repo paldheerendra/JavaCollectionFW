@@ -15,7 +15,7 @@ public class AccessModifier {
 
 	static protected String publicString = "Public String";
 
-	private static void privateMethod() {
+	private static void privateMethod() { 
 
 		System.out.println("------------------privateMethod()-----------------");
 	}
