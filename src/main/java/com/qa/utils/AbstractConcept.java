@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.qa.utils;
 
 /**
@@ -55,4 +52,16 @@ public abstract class AbstractConcept {
 
 	public abstract void addNumbers(int a, int b);
 
+	//method body doesn't allow in abstract method. Only method signature
+	//public abstract void methodBody() {}
+			
+	public static void main(String [] args) {
+		
+		//can't create an object of abstract class anywhere
+		//AbstractConcept obj = new AbstractConcept();
+		
+	}
+	
 }
+
+

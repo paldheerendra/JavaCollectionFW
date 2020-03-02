@@ -4,6 +4,7 @@
 package com.qa.utils;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 /**
@@ -24,6 +25,7 @@ public class ListCollections {
 	    System.out.println(list);  
 	}
 	
+	
 	//iteration -- iterator()
 	 public static void getThroughIterator() {
 		 list.add("Dheerendra");
@@ -41,9 +43,19 @@ public class ListCollections {
 		 for(int i=0;i<list.size();i++) {
 			 System.out.println(list.get(i));
 		 }
-		
+		 	
 	 }
 	 
+	//foreach
+	 
+	 public static void getThroughForEach() {
+		
+		 System.out.println("--------getThroughForEach()---------"); 
+			for(String str : list) {
+				System.out.println(str);
+			}
+	 }
+	
 	 public static void getThroughLambdaExpression() {
 		 
 		 System.out.println("-----------------"); 
@@ -65,6 +77,7 @@ public class ListCollections {
 		 
 		 getThroughLambdaExpression();
 
+		 getThroughForEach();
 	}
 
 }

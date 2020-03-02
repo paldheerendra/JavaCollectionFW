@@ -79,7 +79,13 @@ public class PatternPrograms {
 			System.out.println();
 		}
 	}
-	
+	/*
+	5 4 3 2 1 
+	4 3 2 1 
+	3 2 1 
+	2 1 
+	1
+	*/
 	public static void reverseTrianglePrint3(int rows) {
 		
 		for (int i = rows; i >= 1; i--) {
@@ -99,13 +105,13 @@ public class PatternPrograms {
 		trianglePrint(5);
 		
 		System.out.println("---------------------------");
-		//reverseTrianglePrint(5);
+		reverseTrianglePrint(5);
 		
 		System.out.println("---------------------------");
-		//reverseTrianglePrint2(5);
+		reverseTrianglePrint2(5);
 		
 		System.out.println("---------------------------");
-		//reverseTrianglePrint3(5);
+		reverseTrianglePrint3(5);
 
 	}
 

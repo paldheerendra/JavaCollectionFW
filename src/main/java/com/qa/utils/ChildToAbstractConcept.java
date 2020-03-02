@@ -19,7 +19,7 @@ public class ChildToAbstractConcept extends AbstractConcept {
 	public ChildToAbstractConcept(String userName, String password) {
 		super(userName, password);
 
-	}
+	}	
 
 	/**
 	 * can't have the constructor which isn't defined in super abstract class 
@@ -50,8 +50,10 @@ public class ChildToAbstractConcept extends AbstractConcept {
 		ch.addNumbers(5.55, 6.45);
 		ch.addNumbers(100, 200);
 
+		ch.getUserName();
 		//can't create object without parameter if no default constructor is created in super abstract class
-		// ChildToAbstractConcept ch2 = new ChildToAbstractConcept(); 
+		//ChildToAbstractConcept ch = new ChildToAbstractConcept();
+		//AbstractConcept ch2 = new ChildToAbstractConcept(); 
 		
 		AbstractConcept objRef = new ChildToAbstractConcept("TestUserName", "TestPassword");
 		System.out.println(objRef.getUserName());
