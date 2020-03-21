@@ -40,12 +40,8 @@ public class String_Word_Swap {
 	}
 
 	public static void main(String[] args) {
-
-		/*
-		 * countChars("Dheerendra singh");
-		 * countChars("I love java but hate javScript");
-		 */
-		wordSwap("Dheerendra singh");
+		
+		wordSwap("Dheerendra Singh Pal");
 		System.out.println();
 		wordSwapWithReverseCharacter("Dheerendra Singh Pal");
 	}
