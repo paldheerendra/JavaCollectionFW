@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.WebDriverTest">
+      <class name="com.qa.random.CheckKeysPressINSelenium">
         <methods>
-          <include name="wdTest"/>
+          <include name="checkKeyPress"/>
         </methods>
-      </class> <!-- com.qa.tests.WebDriverTest -->
+      </class> <!-- com.qa.random.CheckKeysPressINSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

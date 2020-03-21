@@ -4,6 +4,10 @@
 package com.qa.library;
 
 import java.lang.reflect.Method;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
  * @author Dheerendra Pal (expleo)
@@ -11,6 +15,21 @@ import java.lang.reflect.Method;
  */
 public class WebDriverFactory {
 
+	WebDriver driver;
+	public WebDriverFactory() {
+		
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resource/drivers/chromedriver_win32/chromedriver.exe");
+		
+		driver = new ChromeDriver();	
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
+	public WebDriver getDriver(){
+		
+		return driver;
+	}
 
 	Method mth;
 	public String setAnnotation(Class<?> cls,Method method) {

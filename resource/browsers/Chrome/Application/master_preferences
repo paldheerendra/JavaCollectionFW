@@ -1,0 +1,55 @@
+{ 
+
+  "session" : {
+
+    "restore_on_startup" : 4,
+
+    "startup_urls" : [
+
+      "https://myplace.sqs.com/"
+
+    ]
+
+  },
+
+
+  "bookmark_bar" : { 
+
+    "show_on_all_tabs" : true 
+
+  }, 
+
+  "distribution" : {
+
+    "show_welcome_page": false,
+
+    "skip_first_run_ui": true,
+
+    "suppress_first_run_bubble": true,
+
+    "do_not_create_desktop_shortcut": true,
+
+    "do_not_create_quick_launch_shortcut": true,
+
+    "do_not_launch_chrome": true,
+
+    "do_not_register_for_update_launch": true,
+
+    "make_chrome_default": false,
+
+    "make_chrome_default_for_user": false,
+
+    "suppress_first_run_default_browser_prompt": true,
+
+    "msi": true,
+
+    "multi_install": true,
+
+    "require_eula": false,
+
+    "system_level": true,
+
+    "verbose_logging": true
+
+  }
+}
