@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.qa.random;
+package com.qa.SeleniumPractice;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;

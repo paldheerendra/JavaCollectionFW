@@ -14,10 +14,21 @@ public class ExtractNumberFromString {
 		
 		str = str.replaceAll("[^\\d]", " ").trim();
 				
-		//str = str.replaceAll(" +" , "");
+		str = str.replaceAll(" +" , " ");
 		
+		System.out.println(str);
 		
-			System.out.println(str);
+		String s[] = str.split(" ");
+		int count = 0;
+		for(int i = 0; i < s.length; i ++) {
+			
+			count = count + Integer.parseInt(s[i]);
+			
+		}
+		
+		System.out.println(count);
+		
+			
 	}
 	
 	public static void removeChars(String str) {

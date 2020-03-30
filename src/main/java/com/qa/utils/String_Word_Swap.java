@@ -27,14 +27,14 @@ public class String_Word_Swap {
 		System.out.println("***Swapping words with revering the words***");
 		for (int i = arr.length - 1 ; i >= 0; i--) {
 			String rev = "";
-			StringBuilder sb = new StringBuilder();//using StringBuilder class
+			//StringBuilder sb = new StringBuilder();//using StringBuilder class
 			for(int j= arr[i].length()-1 ; j >= 0  ; j --) {
 				
-				//rev = rev + arr[i].charAt(j);		
-				sb.append(arr[i].charAt(j));
+				rev = rev + arr[i].charAt(j);		
+				//sb.append(arr[i].charAt(j));
 			}
-			System.out.print(sb + " ");
-			//System.out.print(rev + " ");
+			//System.out.print(sb + " ");
+			System.out.print(rev + " ");
 
 		}
 	}

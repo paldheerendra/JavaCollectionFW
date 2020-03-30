@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.qa.random;
+package com.qa.SeleniumPractice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -35,6 +35,7 @@ public class CheckKeysPressINSelenium {
 		Actions action = new Actions(driver);
 		
 		//action.keyDown(driver.findElement(By.name("q")), Keys.CONTROL + "C");
+		
 		
 		driver.findElement(By.name("q")).sendKeys(Keys.CONTROL + "c");
 		driver.navigate().refresh();

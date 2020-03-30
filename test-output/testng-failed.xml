@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.random.CheckKeysPressINSelenium">
+      <class name="com.qa.SeleniumPractice.InterviewTestIdea">
         <methods>
-          <include name="checkKeyPress"/>
+          <include name="setUp"/>
+          <include name="getData"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.random.CheckKeysPressINSelenium -->
+      </class> <!-- com.qa.SeleniumPractice.InterviewTestIdea -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
