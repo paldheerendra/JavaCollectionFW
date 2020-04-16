@@ -9,6 +9,13 @@ package com.qa.utils;
  */
 public class OverridingConceptChild extends OverridingConcept1 {
 		
+	/*
+	 * compile time error-- if we declare override method as static, private or
+	 * final But we can redeclare private and static methods in childClass. The child class private and static methods would act separately, it would have nothing to do with parent class same methods.
+	 * 
+	 * We can't redeclare final method in child Class
+	 */
+	
 	   //@Override   not possible
 		public static void get() {
 			System.out.println("Child class get()");		
@@ -20,7 +27,7 @@ public class OverridingConceptChild extends OverridingConcept1 {
 		}
 
 		@Override  
-		public void multi() { // compile time error if we declare override method as static
+		public void multi() { // compile time error if we declare override method as static, private or final
 			System.out.println("Child class multi()");
 		}
 		
@@ -28,8 +35,9 @@ public class OverridingConceptChild extends OverridingConcept1 {
 			get();
 			OverridingConceptChild ch = new OverridingConceptChild();		
 			
-			ch.add();			
-			
+			ch.add();	
+			ch.multi();
+						
 			OverridingConcept1 parent = new OverridingConceptChild();
 			parent.add(); // it will call child class method
 			//parent.get(); //also possible
