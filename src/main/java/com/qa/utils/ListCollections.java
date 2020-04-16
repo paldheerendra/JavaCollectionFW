@@ -4,7 +4,6 @@
 package com.qa.utils;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 
 /**
@@ -63,7 +62,7 @@ public class ListCollections {
 		 list.forEach(item -> {
 			 System.out.println(item);
 		 });
-		 
+		 		 
 	 }
 	
 	

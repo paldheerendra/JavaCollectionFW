@@ -22,12 +22,9 @@ public class ExtractNumberFromString {
 		int count = 0;
 		for(int i = 0; i < s.length; i ++) {
 			
-			count = count + Integer.parseInt(s[i]);
-			
-		}
-		
-		System.out.println(count);
-		
+			count = count + Integer.parseInt(s[i]);			
+		}		
+		System.out.println(count);	
 			
 	}
 	
@@ -36,7 +33,7 @@ public class ExtractNumberFromString {
 		for (char ch : str.toCharArray()) {
             
             if (Character.isDigit(ch)) 
-                System.out.print(ch + " ");           
+                System.out.print(ch + " ");       
 
 		}
 	}
@@ -46,6 +43,8 @@ public class ExtractNumberFromString {
 
 		extractInt("Sapie1n2 535 af 5");
 		removeChars("hell4 123 lo213 fda21 23");
+		
+		extractInt("Hum11ming13Bird15");
 
 	}
 

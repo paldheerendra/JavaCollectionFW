@@ -24,6 +24,7 @@ public class SortingMap {
 		}
 				
 	}
+	@SuppressWarnings("rawtypes")
 	public static void sortByUsingTreeSet(Map<String, Integer> map) {
 		System.out.println("-----------------Sort by TreeMap---------");
 		
@@ -33,7 +34,7 @@ public class SortingMap {
 		 */
 		
 	 
-		TreeMap<String, Integer> tmap=new TreeMap<>(map);
+		TreeMap<String, Integer> tmap=new TreeMap<String, Integer>(map);
 		for(Map.Entry m: tmap.entrySet()) {
 			System.out.println(m.getKey() + ": " + m.getValue());
 		}
@@ -41,7 +42,7 @@ public class SortingMap {
 
 	public static void main(String[] args) {
 
-		Map<String, Integer> hmap = new HashMap<>();
+		Map<String, Integer> hmap = new HashMap<String, Integer>();
 		hmap.put("Jayant", 80);
 		hmap.put("Abhishek", 90);
 		hmap.put("Anushka", 80);

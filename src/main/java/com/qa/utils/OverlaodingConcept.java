@@ -26,7 +26,12 @@ public class OverlaodingConcept {
 	
 	public static final long getMulti(int x, int y) {
 		
-		return x*y;
+		return x * y;
+	}
+	
+	public static final String getMulti(int x, String y) {
+		
+		return x + y;
 	}
 	
 	public static void main(String[] args) {

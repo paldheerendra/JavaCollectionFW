@@ -34,7 +34,7 @@ public class MapCollections {
 
 	public static void sortHashMapUsingTreeMap(Map<String, Integer> map) {
 		
-		TreeMap<String, Integer> tmap=new TreeMap<>(map);
+		TreeMap<String, Integer> tmap=new TreeMap<String, Integer>(map);
 		//tmap.putAll(map);
 		for(Map.Entry<String, Integer> values: tmap.entrySet()) {
 			
@@ -60,7 +60,7 @@ public class MapCollections {
 		getMapValues(map1);		
 		
 
-		HashMap<String, Integer> map = new HashMap<>();
+		HashMap<String, Integer> map = new HashMap<String, Integer>();
 		
 		map.put("Vishal", 10);
 		map.put("Sachin", 30);
@@ -72,6 +72,7 @@ public class MapCollections {
 		 * //Fetching keys System.out.println("Keys: "+map.keySet()); //Fetching value
 		 * System.out.println("Values: "+map.values());
 		 */  
+		
 	       
 		sortHashMapUsingTreeMap(map);
 		
