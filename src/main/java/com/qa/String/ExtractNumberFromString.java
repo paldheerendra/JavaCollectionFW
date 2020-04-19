@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.qa.random;
+package com.qa.String;
 
 /**
  * @author Dheerendra Pal (expleo)
