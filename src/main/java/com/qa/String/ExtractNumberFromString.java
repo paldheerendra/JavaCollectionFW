@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.qa.String;
+package com.qa.string;
 
 /**
  * @author Dheerendra Pal (expleo)

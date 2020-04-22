@@ -1,6 +1,5 @@
-package com.qa.String;
+package com.qa.string;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
