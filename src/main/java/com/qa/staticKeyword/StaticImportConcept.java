@@ -1,9 +1,8 @@
 
 package com.qa.staticKeyword;
-import static com.qa.utils.StaticClass.getPlayerDetails;
-
+import static com.qa.staticKeyword.StaticClass.getPlayerDetails;
 /**
- * @author Dheerendra Pal (expleo)
+ * @author Dheerendra Pal
  * *Used to Check the static import functionality(we can access static method and variable directly using static import)
  * And check the optional argument
  * 
@@ -17,18 +16,15 @@ public class StaticImportConcept{
 
 	public static void main(String[] args) {			
 		
-		getPlayerDetails(45, "Rohit");
 		
-		getPlayerDetails(10, "Sachin");
-		
-		getPlayerDetails(7, "Dhoni" , "Batsman" , "Skipper");
-		
-		getPlayerDetails(18, "Virat" , "BatsMan");
-	
-		
-	
-		
-		
+		  getPlayerDetails(45, "Rohit");
+		  
+		  getPlayerDetails(10, "Sachin");
+		  
+		  getPlayerDetails(7, "Dhoni" , "Batsman" , "Skipper");
+		  
+		  getPlayerDetails(18, "Virat" , "BatsMan");
+		 
 	}
 
 }
