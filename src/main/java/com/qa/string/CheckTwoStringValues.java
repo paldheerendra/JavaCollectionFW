@@ -12,10 +12,17 @@ public class CheckTwoStringValues {
 	
 	public static void main(String[] args) {
 		
+		String sc= new String("sc");
+		String sc1= new String("sc");
+		if(sc==sc1) {
+			//System.out.println("hdsgdf");
+		}
+		System.out.println("Class string: " + sc==sc1);
+		
 		String s1 = "Selenium";
 		String s2 = "Selenium" ;
 		
-		System.out.println(s1 == s2); //true
+		/*System.out.println(s1 == s2); //true
 		
 		System.out.println(s1.equals(s2)); //true
 		
@@ -42,7 +49,22 @@ public class CheckTwoStringValues {
 			System.out.println(ch);
 		}
 		
+		*/
+		/*
+		 * String a ="abc"; String b = "abc";
+		 * 
+		 * 
+		 * 
+		 * System.out.println(a.equals(b)); System.out.println(a==b);
+		 */
 		
+		String a= new String ("abc");
+		String b= new String ("abc");
+
+
+
+		System.out.println(a.equals(b));
+		System.out.println(a==b);
 		
 	}
 

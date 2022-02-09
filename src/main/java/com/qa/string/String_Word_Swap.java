@@ -43,7 +43,8 @@ public class String_Word_Swap {
 		
 		wordSwap("Dheerendra Singh Pal");
 		System.out.println();
-		wordSwapWithReverseCharacter("Dheerendra Singh Pal");
+		String msg = "Welcome To Altimetrik India";
+		wordSwapWithReverseCharacter(msg);
 	}
 
 }

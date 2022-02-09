@@ -38,7 +38,7 @@ public class StringCountEachCharacter {
 		 * countChars("Dheerendra singh");
 		 * countChars("I love java but hate c javScript");
 		 */
-		countChars("abccd");
+		countChars("Dheerendra");
 	}
 
 }

@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-23T00:23:14 IST" name="Default suite" finished-at="2020-03-23T00:24:07 IST" duration-ms="52973">
+  <suite name="Default suite" duration-ms="10100" started-at="2021-02-25T14:01:58 IST" finished-at="2021-02-25T14:02:08 IST">
     <groups>
     </groups>
-    <test started-at="2020-03-23T00:23:14 IST" name="Default test" finished-at="2020-03-23T00:24:07 IST" duration-ms="52973">
-      <class name="com.qa.SeleniumPractice.InterviewTestIdea">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.SeleniumPractice.InterviewTestIdea@94dc1ab8]" started-at="2020-03-23T00:23:14 IST" name="setUp" finished-at="2020-03-23T00:23:20 IST" duration-ms="5911" status="PASS">
+    <test name="Default test" duration-ms="10100" started-at="2021-02-25T14:01:58 IST" finished-at="2021-02-25T14:02:08 IST">
+      <class name="com.qa.tests.FileUpload">
+        <test-method status="PASS" signature="testUpload()[pri:0, instance:com.qa.tests.FileUpload@5a8806ef]" name="testUpload" duration-ms="10067" started-at="2021-02-25T14:01:58 IST" finished-at="2021-02-25T14:02:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getData()[pri:0, instance:com.qa.SeleniumPractice.InterviewTestIdea@94dc1ab8]" started-at="2020-03-23T00:23:20 IST" name="getData" finished-at="2020-03-23T00:24:06 IST" duration-ms="46058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.SeleniumPractice.InterviewTestIdea@94dc1ab8]" started-at="2020-03-23T00:24:06 IST" name="tearDown" finished-at="2020-03-23T00:24:07 IST" duration-ms="891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.SeleniumPractice.InterviewTestIdea -->
+        </test-method> <!-- testUpload -->
+      </class> <!-- com.qa.tests.FileUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

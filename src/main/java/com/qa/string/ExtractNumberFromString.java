@@ -12,9 +12,9 @@ public class ExtractNumberFromString {
 
 	public static void extractInt(String str) {
 		
-		str = str.replaceAll("[^\\d]", " ").trim();
+		str = str.replaceAll("[^\\d]", "").trim();
 				
-		str = str.replaceAll(" +" , " ");
+		str = str.replaceAll(" +" , "");
 		
 		System.out.println(str);
 		
