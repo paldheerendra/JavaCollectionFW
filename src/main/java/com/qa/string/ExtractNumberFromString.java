@@ -25,7 +25,7 @@ public class ExtractNumberFromString {
 			
 			count = count + Integer.parseInt(s[i]);			
 		}		
-		System.out.println(count);	
+		System.out.println("Count : " + count);	
 			
 	}
 	
@@ -45,7 +45,7 @@ public class ExtractNumberFromString {
 		extractInt("Sapie1n2 535 af 5");
 		removeChars("hell4 123 lo213 fda21 23");
 		
-		extractInt("Hum11ming13Bird15");
+		//extractInt("Hum11ming13Bird15");
 
 	}
 

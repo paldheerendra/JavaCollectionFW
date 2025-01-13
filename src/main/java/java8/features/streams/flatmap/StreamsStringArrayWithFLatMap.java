@@ -12,8 +12,7 @@ public class StreamsStringArrayWithFLatMap {
 			{"c","d"},
 			{"e","f"}
 				};
-		
-		
+				
 		Stream<String[]> dataStream = Arrays.stream(data);
 		
 		//apply flatmap on dataStream:
@@ -21,7 +20,7 @@ public class StreamsStringArrayWithFLatMap {
 		
 		Stream<String> dataStreamFilter =  streamFlatMap.filter(x -> "a".equals(x.toString()));
 		
-		dataStreamFilter.forEach(System.out::println);
+		dataStreamFilter.forEach(System.out::println); 
 		
 		//composite actions:
 		Stream<String> finalStream = Arrays.stream(data).

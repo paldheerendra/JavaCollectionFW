@@ -21,10 +21,10 @@ public class StringCountEachCharacter {
 				hmap.put(ch, hmap.get(ch) + 1);
 			} else
 				hmap.put(ch, 1);
-			System.out.println(hmap.get(ch));	
-			if(hmap.get(ch) > hmap.get(ch)+1) {
-				System.out.println(hmap.get(ch));
-			}
+			/*
+			 * //System.out.println(hmap.get(ch)); if(hmap.get(ch) > hmap.get(ch)+1) {
+			 * System.out.println(hmap.get(ch)); }
+			 */
 		}
 
 		

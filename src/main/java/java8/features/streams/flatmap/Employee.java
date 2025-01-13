@@ -27,6 +27,7 @@ public class Employee {
 		this.name = name;
 	}
 
+
 	public Set<String> getDevices() {
 		return devices;
 	}

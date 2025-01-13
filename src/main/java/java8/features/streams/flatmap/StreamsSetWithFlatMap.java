@@ -26,6 +26,7 @@ public class StreamsSetWithFlatMap {
 		emp2.addDevices("iPhone9");
 		emp2.addDevices("macbook air");
 		
+		
 		List<Employee> empLists = new ArrayList<Employee>();
 		
 		empLists.add(emp1);
@@ -38,8 +39,6 @@ public class StreamsSetWithFlatMap {
 								.collect(Collectors.toList());
 		
 		list.forEach(System.out :: println);
-		
-		
 		
 	}
 
