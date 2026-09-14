@@ -27,6 +27,7 @@ public class DuplicateCharFromString {
 		for (Map.Entry<Character, Integer> ent : hmap.entrySet()) {
 			if (ent.getValue() > 1)
 				System.out.println(ent.getKey());
+
 		}
 		System.out.println("##########2.###############");
 		// 2.

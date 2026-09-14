@@ -24,6 +24,8 @@ public class CheckTwoStringValues {
 		System.out.println(a==b);
 		System.out.println(a.equals(b));
 		
+		String s3 = s2+ "ADF";
+		
 		/*System.out.println(s1 == s2); //true
 		
 		System.out.println(s1.equals(s2)); //true
